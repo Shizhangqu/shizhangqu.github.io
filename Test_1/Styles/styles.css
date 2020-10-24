@@ -1,0 +1,52 @@
+﻿html {
+    font-size: 15px;
+    font-family: 'Noto Serif SC', serif;
+    background-color: rgba(242, 160, 231, 0.3);
+}
+body {
+    width: 600px;
+    /*强制页面宽*/
+    margin: 0 auto;
+    /*水平向上左右对称*/
+    background-color: rgba(201, 17, 17, 0.2);
+    /*背景色*/
+    padding: 0 20px 20px 20px;
+    /*内边框*/
+    border: thick double rgba(201, 17, 17, 0.2);
+    /*边框*/
+}
+p, ul, ol {
+    color: dodgerblue;
+    line-height: 2;
+    /*行宽*/
+    letter-spacing: 1px;
+    /*字间距*/
+}
+h1 {
+    margin: 0;
+    /*去掉默认样式*/
+    padding: 20px 0;
+    /*距离顶部20px*/
+    font-size: 60px;
+    text-align: center;
+    /*居中*/
+    text-shadow: 1px 1px 2px red;
+    /*设置阴影*/
+    color: orangered;
+}
+h3 {
+    margin: 0;
+    /*去掉默认样式*/
+    padding: 20px 0;
+    /*距离顶部20px*/
+    font-size: 40px;
+    text-align: center;
+    /*居中*/
+    text-shadow: 1px 1px 2px red;
+    /*设置阴影*/
+    color: orangered;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
